@@ -1,0 +1,30 @@
+// left menu
+.list-group-item--action {
+
+    &:hover,
+    &:focus {
+        background-color: $primary;
+    }
+}
+
+// pagination hover, focus and active
+.page-item {
+    &.active {
+        .page-link {
+            color: $primary;
+            background-color: $success;
+        }
+    }
+}
+
+.page-link {
+    &--text {
+        color: $success;
+    }
+
+    &:hover,
+    &:focus {
+        color: $primary;
+        background-color: $success;
+    }
+}

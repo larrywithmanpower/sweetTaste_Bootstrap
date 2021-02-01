@@ -1,0 +1,18 @@
+//* breakpoint
+@mixin pad {
+    @media(max-width: 768px) {
+        @content
+    }
+};
+
+@mixin mobile {
+    @media(max-width: 414px) {
+        @content
+    }
+};
+
+@mixin other($width) {
+    @media(max-width: $width) {
+        @content
+    }
+};

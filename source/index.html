@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/bakery-kitchen-3/512/00_Bakery__Sweet.pdf-32-256.png">
+    <meta name="description" content="六角最終練習作業--Bootstrap甜點商店">
+    <meta name="keywords" content="六角, 六角學院, 最終練習作業, bootstrap, 甜點商店, 甜點電商, 作業, 練習"> 
+    <meta property="og :title" content="六角學院最終作業">
+    <meta property="og :description" content="六角學院最終作業, 最終作業, bootstrap作業">
+    <meta property="og :type" content="website">
+    <meta property="og :url" content="https://www.hexschool.com/">
+    <meta property="og :image" content="https://www.hexschool.com/">
+    <title>六角甜點-首頁</title>
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent py-4">
+        <div class="container">
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand d-flex align-items-center" href="cart.html">
+                <img src="images/logo-all-dark.svg" alt="" width="220" height="40" class="d-none d-md-inline-block">
+                <img src="images/logotype-sm-dark.svg" alt="" width="114" height="18" class="d-inline-block d-md-none">
+            </a>
+            <div class="nav-bar order-md-3 d-flex align-items-center">
+                <a href="cart.html" class="nav-link ml-md-4 text-success">
+                    <i class="material-icons">
+                        shopping_cart
+                    </i>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse order-md-2" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto text-success font-weight-bold">
+                    <li class="nav-item active ml-5">
+                        <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ml-5">
+                        <a class="nav-link" href="product.html">甜點</a>
+                    </li>
+                    <li class="nav-item ml-5">
+                        <a class="nav-link" href="login.html" tabindex="-1">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="header container px-0">
+        <div class="header--bg bg-cover col-md-12 zindex--1"
+            style="background-image: url(https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68ab0db4ee79bdce92722b31112b&auto=format&fit=crop&w=925&q=80)">
+        </div>
+        <h1 class="mb-0 text-hide">六角甜點工坊</h1>
+        <div class="row justify-content-center mt--90 no-gutter">
+            <div class="col-md-10">
+                <div class="row">
+                    <a href="#" class="col-4 filterSection active">
+                        <span class="filterSection--text font-weight-bold">本日精選</span>
+                        <div class="filterSection--bg filterSection--hover"></div>
+                        <div class="filterSection--img bg-cover zindex--1"
+                            style="background-image: url(https://images.unsplash.com/photo-1504473089979-b1c4993a9653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9db69b72e1f7d1b4e5c81cee531108ff&auto=format&fit=crop&w=634&q=80)">
+                        </div>
+                    </a>
+                    <a href="#" class="col-4 filterSection">
+                        <span class="filterSection--text font-weight-bold">人氣推薦</span>
+                        <div class="filterSection--bg filterSection--hover"></div>
+                        <div class="filterSection--img bg-cover zindex--1"
+                            style="background-image: url(https://images.unsplash.com/photo-1525059337994-6f2a1311b4d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ce5bbf66bdb4ed3b6965f0b3618aa43&auto=format&fit=crop&w=654&q=80)">
+                        </div>
+                    </a>
+                    <a href="#" class="col-4 filterSection">
+                        <span class="filterSection--text font-weight-bold">新品上市</span>
+                        <div class="filterSection--bg filterSection--hover"></div>
+                        <div class="filterSection--img bg-cover zindex--1"
+                            style="background-image: url(https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73ed228f25bdefd2291c242f6d390fca&auto=format&fit=crop&w=634&q=80)">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <!-- section 1 -->
+    <div class="text-center my-5 p-md-5">
+        <img src="images/sm-橫式-為什麼選擇了做甜點.svg" alt="" class="d-md-none img-fluid text-center" width="296" height="60">
+    </div>
+    <section class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my--20 px-0">
+                    <div class="highlightPhoto bg-cover h-100" style="background-image: url(https://bit.ly/2xPn7Eq);">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex vertical-content justify-content-end">
+                    <div class="text-info vertical-rl py-md-7 py-4">
+                        <p class="mb-0">
+                            青山依舊在，幾度夕陽紅。慣看秋月春風。
+                        </p>
+                        <p class="mb-0">
+                            一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
+                        </p>
+                        <p class="mb-0">
+                            是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
+                        </p>
+                    </div>
+                    <div class="my--20 d-md-block d-none ml-auto">
+                        <img src="images/lg-為什麼選擇了做甜點.svg" alt="為啥選擇做甜點" width="89">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- section 2 -->
+    <div class="text-center my-5 pt-md-5">
+        <img src="images/sm-橫式-為什麼一定要吃甜點.svg" alt="" class="d-md-none img-fluid text-center" width="296" height="60">
+    </div>
+    <section class="bg-primary">
+        <div class="container">
+            <div class="row flex-row-reverse">
+                <div class="col-md-6 my--20 px-0 pl-md-4">
+                    <div class="highlightPhoto bg-cover h-100" style="background-image: url(https://bit.ly/2zzAQS4);">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex vertical-content justify-content-end">
+                    <div class="text-info vertical-rl py-md-7 py-4">
+                        <p class="mb-0">
+                            青山依舊在，幾度夕陽紅。慣看秋月春風。
+                        </p>
+                        <p class="mb-0">
+                            一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
+                        </p>
+                        <p class="mb-0">
+                            是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
+                        </p>
+                    </div>
+                    <div class="my--20 d-md-block d-none ml-auto">
+                        <img src="images/lg-為什麼一定要吃甜點.svg" alt="為啥選擇做甜點" width="89">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 3 -->
+    <div class="text-center my-5 py-md-6">
+        <img src="images/lg-想吃甜點是不需要理由的.svg" alt="" class="d-none d-md-block img-fluid mx-auto" width="89" height="327">
+        <img src="images/sm-橫式-想吃甜點是不需要理由的.svg" alt="" class="d-md-none img-fluid" width="226" height="60">
+    </div>
+    <!-- section 4 -->
+    <div class="container mb-5 px-4">
+        <div class="card-deck">
+            <div class="card card-custom">
+                <a href="#" class="product-icon"><i class="far fa-heart"></i></a>
+                <div class="bg-success product-vertical-rl product-text p-2">
+                    本日精選
+                </div>
+                <div class="product-img bg-cover" style="background-image: url(https://bit.ly/2zBjQuq);"></div>
+                <div class="card-body row text-success h5 py-0 mb-0 text-center mx-0">
+                    <div class="col-7 py-3">焦糖瑪卡龍</div>
+                    <div class="col-5 py-3 border-left">NT$ 450</div>
+                </div>
+                <div class="card-footer bg-primary text-center p-0">
+                    <a href="#" class="btn btn-primary btn-block btn-lg text-success rounded-0 py-3">加入購物車</a>
+                </div>
+            </div>
+            <div class="card card-custom">
+                <a href="#" class="product-icon"><i class="far fa-heart"></i></a>
+                <div class="bg-success product-vertical-rl product-text p-2">
+                    本日精選
+                </div>
+                <div class="product-img bg-cover" style="background-image: url(https://bit.ly/2zBDAxX);"></div>
+                <div class="card-body row text-success h5 py-0 mb-0 text-center mx-0">
+                    <div class="col-7 py-3">焦糖瑪卡龍</div>
+                    <div class="col-5 py-3 border-left">NT$ 450</div>
+                </div>
+                <div class="card-footer bg-primary text-center p-0">
+                    <a href="#" class="btn btn-primary btn-block btn-lg text-success rounded-0 py-3">加入購物車</a>
+                </div>
+            </div>
+            <div class="card card-custom d-sm-none d-lg-block">
+                <a href="#" class="product-icon"><i class="far fa-heart"></i></a>
+                <div class="bg-success product-vertical-rl product-text p-2">
+                    本日精選
+                </div>
+                <div class="product-img bg-cover" style="background-image: url(https://bit.ly/2QbVsVR);"></div>
+                <div class="card-body row text-success h5 py-0 mb-0 text-center mx-0">
+                    <div class="col-7 py-3">焦糖瑪卡龍</div>
+                    <div class="col-5 py-3 border-left">NT$ 450</div>
+                </div>
+                <div class="card-footer bg-primary text-center p-0">
+                    <a href="#" class="btn btn-primary btn-block btn-lg text-success rounded-0 py-3">加入購物車</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- layout section -->
+    <section class="bg-success py-5">
+        <div class="container-lg px-md-8 px-4">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="images/footer success icon -light.png" alt="footer picture" class="mr-3">
+                        <h4 class="text-primary mb-0">訂閱你我的甜蜜郵件</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-form"><i class="fas fa-envelope"></i></span>
+                        </div>
+                        <input type="text" class="form-control bg-form">
+                        <div class="input-group-append">
+                            <button class="btn btn-warning text-success"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-primary py-4">
+        <div class="container-lg px-md-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/logotype-lg-dark.svg" alt="footer picture" width="172" height="26" class="my-5">
+                    <ul class="mt-md-7">
+                        <li>
+                            <a href="tel:07-1234-5678" class="text-success">07-1234-5678</a>
+                        </li>
+                        <li>
+                            <a href="mailto:sweetaste@email.com" class="text-success">sweetaste@email.com</a>
+                        </li>
+                        <li class="text-success">
+                            800 高雄市新興區幸福路 520 號
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 d-none d-md-block text-right">
+                    <img src="images/sm-今天是個吃甜點的好日子.svg" alt="goodDay" width="60" height="218">
+                </div>
+            </div>
+
+            <div class="row align-items-end mt-5">
+                <div class="col-md-6">
+                    <img src="images/link-icon.png" alt="line" class="mr-1" width="32" height="32">
+                    <img src="images/fb-icon.png" alt="fb" width="32" height="32">
+                </div>
+                <div class="col-md-6 ml-auto text-success text-md-right mt-4">
+                    © 2018 Sweetaste* All Rights Reserved
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="javascripts/vendor.js"></script>
+</body>
+
+</html>
