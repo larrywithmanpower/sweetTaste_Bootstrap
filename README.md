@@ -1,5 +1,5 @@
 # sweetTaste_Bootstrap
-<a href="https://larrywithmanpower.github.io/sweetTaste_Bootstrap/index.html" target="_blank">甜點網頁-Bootstrap最終作業DEMO</a>
+<a href="https://larrywithmanpower.github.io/sweetTaste_Bootstrap/index.html">甜點網頁-Bootstrap最終作業DEMO</a>
 
 ## 安裝環境
 
